@@ -15,6 +15,8 @@
 - source bin/activate
 - pip install -r requirements.txt
 - pip freeze
+- mv test.py lib/python2.7/site-packages
+- cd lib/python2.7/site-packages
 - python test.py
 
 ## References
